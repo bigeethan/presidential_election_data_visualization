@@ -320,7 +320,7 @@ else:
     }
 votes = pd.DataFrame(state_data)
 
-#Display the data in a bar graph
+#Display the vote data in a bar graph
 matplot.bar(votes["Candidates"], votes["Votes"])
 matplot.title(f"{year} Presidential Election in {election_data['STATE']}")
 add_labels(votes["Candidates"], votes["Votes"])
