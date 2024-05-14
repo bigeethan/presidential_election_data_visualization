@@ -6,7 +6,7 @@ print("Enter the election year (1940 to 2020)")
 year = input()
 print("Enter the state")
 state = input()
-index = 0
+index = None
 d_can = ""
 r_can = ""
 i_can = ""
@@ -172,9 +172,9 @@ elif int(year) >= 1960:
         index = 28
     elif state.upper() == "NEW JERSEY":
         index = 29
-    elif state.upper() == "NORTH MEXICO":
+    elif state.upper() == "NEW MEXICO":
         index = 30
-    elif state.upper() == "NORTH YORK":
+    elif state.upper() == "NEW YORK":
         index = 31
     elif state.upper() == "NORTH CAROLINA":
         index = 32
