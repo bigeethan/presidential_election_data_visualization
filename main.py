@@ -13,7 +13,7 @@ i_can = ""
 is_2_candidate_race = True
 
 #Get the list index of each state
-#unefficient but could not get index from element due to the structure of the csv data
+#inefficient but could not get index from element due to the structure of the csv data
 if int(year) < 1960:
     if state.upper() == "ALABAMA":
         index = 0
